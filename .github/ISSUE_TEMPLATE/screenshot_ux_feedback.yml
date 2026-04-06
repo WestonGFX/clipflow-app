@@ -1,0 +1,24 @@
+name: Screenshot or UX feedback
+description: Report visual polish issues, confusing flows, or screenshot/gallery mismatches.
+title: "[UX]: "
+labels:
+  - beta
+  - ux
+body:
+  - type: input
+    id: version
+    attributes:
+      label: ClipFlow version
+      placeholder: "0.1.1"
+  - type: textarea
+    id: issue
+    attributes:
+      label: What feels off?
+      placeholder: Tell us what looks wrong, feels confusing, or fails to match the screenshots.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot or screen recording
+      description: Attach a screenshot or describe exactly what area looked wrong.

@@ -1,0 +1,28 @@
+name: Feature request
+description: Suggest a workflow win or quality improvement for ClipFlow.
+title: "[Feature]: "
+labels:
+  - beta
+  - feature
+body:
+  - type: input
+    id: workflow
+    attributes:
+      label: Workflow to improve
+      placeholder: "Snippets, tray flow, search, filters, transforms..."
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      placeholder: Describe the friction or missing workflow.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      placeholder: Describe the best version of the feature without worrying about implementation details.
+    validations:
+      required: true

@@ -1,0 +1,44 @@
+name: Beta bug report
+description: Report a ClipFlow beta bug with diagnostics-first details.
+title: "[Bug]: "
+labels:
+  - beta
+  - bug
+body:
+  - type: input
+    id: version
+    attributes:
+      label: ClipFlow version
+      placeholder: "0.1.1"
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+      placeholder: "macOS 15.4"
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics bundle
+      description: Paste the copied diagnostics block from Settings when possible. Do not include clipboard history content.
+      render: text
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      placeholder: Tell us what you expected, what actually happened, and how often it reproduces.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ClipFlow
+        2. ...
+        3. ...
+    validations:
+      required: true

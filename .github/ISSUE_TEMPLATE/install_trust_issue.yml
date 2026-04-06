@@ -1,0 +1,45 @@
+name: Install or trust problem
+description: Report DMG, Gatekeeper, signing, notarization, or first-launch trust issues.
+title: "[Install]: "
+labels:
+  - beta
+  - install
+body:
+  - type: input
+    id: version
+    attributes:
+      label: ClipFlow version
+      placeholder: "0.1.1"
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+      placeholder: "macOS 15.4"
+    validations:
+      required: true
+  - type: textarea
+    id: asset
+    attributes:
+      label: Installed asset
+      placeholder: "DMG name or zip asset"
+    validations:
+      required: true
+  - type: textarea
+    id: message
+    attributes:
+      label: Exact macOS / Gatekeeper message
+      description: Paste the warning or trust error exactly if you can.
+    validations:
+      required: true
+  - type: dropdown
+    id: trust-state
+    attributes:
+      label: Did you use the local-open workaround?
+      options:
+        - No
+        - Yes, I used the codesign/xattr workaround
+        - I am not sure
+    validations:
+      required: true

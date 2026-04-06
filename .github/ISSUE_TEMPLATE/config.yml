@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Install and upgrade guide
+    url: https://github.com/WestonGFX/clipflow-app/blob/main/docs/install-and-upgrade.md
+    about: Use this guide for first-launch trust prompts, upgrades, uninstall, and reset steps.
+  - name: Releases
+    url: https://github.com/WestonGFX/clipflow-app/releases
+    about: Download the latest beta build and check whether it is signed/notarized.
