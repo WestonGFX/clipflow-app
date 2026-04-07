@@ -5,4 +5,7 @@ contact_links:
     about: Use this guide for first-launch trust prompts, upgrades, uninstall, and reset steps.
   - name: Releases
     url: https://github.com/WestonGFX/clipflow-app/releases
-    about: Download the latest beta build and check whether it is signed/notarized.
+    about: Download the latest public build and check whether it is signed/notarized.
+  - name: Roadmap feedback thread
+    url: https://github.com/WestonGFX/clipflow-app/issues/1
+    about: Use this thread to influence the order of future features without turning the README into a poll.

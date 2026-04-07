@@ -8,10 +8,18 @@
   <img src="public/logo4.png" width="120" alt="ClipFlow logo" />
   <h2>Fast Clipboard Recall For macOS</h2>
   <p>
-    ClipFlow is a dense, local-first clipboard manager for people who want fast search,
-    tray-first utility, and a serious desktop workflow instead of a bloated dashboard.
+    ClipFlow is a dense, local-first clipboard manager built for fast search,
+    tray-first utility, and a serious desktop workflow that stays compact by default.
   </p>
 </div>
+
+## Start Here
+
+If you only do three things, make them these:
+
+1. Download the `.dmg` from [Releases](https://github.com/WestonGFX/clipflow-app/releases).
+2. Read [docs/install-and-upgrade.md](docs/install-and-upgrade.md) if macOS asks for trust confirmation or you are upgrading from an older build.
+3. Use the issue templates below for bugs, install problems, feature requests, or UX feedback.
 
 ## Why ClipFlow
 
@@ -24,9 +32,9 @@ ClipFlow is built around a few simple ideas:
 
 It is designed to feel like a real Mac utility you can trust all day, not a novelty layer on top of your clipboard.
 
-## Beta Download
+## Downloads
 
-The latest beta builds live in:
+The latest public builds live in:
 
 - [Releases](https://github.com/WestonGFX/clipflow-app/releases)
 
@@ -35,13 +43,14 @@ For most people, the right download is:
 - the `.dmg`
 
 Use the zipped `.app` only as a fallback if the DMG route gives you trouble.
+The checksum, manifest, and validation files are for support and verification, not the normal install path.
 
 Install notes, trust caveats, upgrade guidance, and migration steps live in:
 
 - [docs/install-and-upgrade.md](docs/install-and-upgrade.md)
 - [docs/release-assets.md](docs/release-assets.md)
 
-If the current beta build is not yet Developer ID signed and notarized, the install guide includes the local-open workaround and explains what that means.
+If the current build is not yet Developer ID signed and notarized, the install guide includes the local-open workaround and explains what that means.
 
 ## Product Gallery
 
@@ -54,8 +63,8 @@ If the current beta build is not yet Developer ID signed and notarized, the inst
       <img src="docs/screenshots/main-ready/main-light-comfortable-dawnfox.png" width="280" alt="ClipFlow main window in Dawnfox with comfortable density" />
     </td>
     <td align="center" width="33.3%">
-      <strong>Default · Kanagawa Dragon</strong><br />
-      <img src="docs/screenshots/main-ready/main-dark-default-kanagawa-dragon.png" width="280" alt="ClipFlow main window in Kanagawa Dragon with default density" />
+      <strong>Compact · Kanagawa Dragon</strong><br />
+      <img src="docs/screenshots/main-ready/main-dark-default-kanagawa-dragon.png" width="280" alt="ClipFlow main window in Kanagawa Dragon with compact density" />
     </td>
     <td align="center" width="33.3%">
       <strong>Dense · Carbonfox</strong><br />
@@ -79,7 +88,7 @@ If the current beta build is not yet Developer ID signed and notarized, the inst
   </tr>
 </table>
 
-## What The Beta Already Covers
+## What ClipFlow Does Today
 
 - fast local search over clipboard history
 - tray workflow and quick recall
@@ -88,7 +97,7 @@ If the current beta build is not yet Developer ID signed and notarized, the inst
 - diagnostics, recovery, export, and reset tooling
 - local-only storage in the app support directory
 
-## Planned Next
+## Roadmap
 
 The public roadmap stays intentionally short. Detailed feature planning stays in the private development repo, but these are the current highest-priority future directions:
 
@@ -99,29 +108,30 @@ The public roadmap stays intentionally short. Detailed feature planning stays in
 5. A future Windows version after the Mac app is stronger and the parity path is clear.
 6. Smarter local-only retrieval features only if they can stay fast, private, and trustworthy.
 
-If you want to influence the order, use feature requests and roadmap feedback issues in this repo rather than treating the README as a live poll.
+If you want to influence the order, use feature requests and the roadmap feedback thread in this repo rather than treating the README as a live poll.
 
-- [Roadmap feedback and voting thread](https://github.com/WestonGFX/clipflow-app/issues/1)
+- [Roadmap feedback thread](issues/1)
 
-## Feedback
+## Feedback And Support
 
 Use GitHub Issues in this repo for:
 
-- beta bugs
+- bugs
 - install or trust problems
 - feature requests
 - screenshot and UX feedback
 
 Start here:
 
-- [Report a bug](https://github.com/WestonGFX/clipflow-app/issues/new?template=bug_report.yml)
-- [Report an install or trust problem](https://github.com/WestonGFX/clipflow-app/issues/new?template=install_trust_issue.yml)
-- [Request a feature](https://github.com/WestonGFX/clipflow-app/issues/new?template=feature_request.yml)
-- [Share screenshot or UX feedback](https://github.com/WestonGFX/clipflow-app/issues/new?template=screenshot_ux_feedback.yml)
+- [Report a bug](issues/new?template=bug_report.yml)
+- [Report an install or trust problem](issues/new?template=install_trust_issue.yml)
+- [Request a feature](issues/new?template=feature_request.yml)
+- [Share screenshot or UX feedback](issues/new?template=screenshot_ux_feedback.yml)
+- [Roadmap feedback thread](issues/1)
 
 ## Source And Development
 
-This public repo is the beta/download surface. The private source repo remains separate.
+This public repo is the release and feedback surface. The private source repo remains separate.
 
 If you are reviewing ClipFlow as a product, use this repo.
 If you have direct access to the private engineering repo, use that one for code, release engineering, and implementation details.

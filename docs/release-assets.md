@@ -6,6 +6,8 @@ Most users only need one file:
 
 The zipped `.app` is the fallback download if the DMG route is inconvenient or you need a manual support path.
 
+If you are not sure what to pick, choose the `.dmg` and ignore the rest for now.
+
 ## Main User Downloads
 
 ### `.dmg`
@@ -43,6 +45,17 @@ This contains packaged runtime measurements like launch timing and app size agai
 ### `release-validation.json`
 
 This records release validation results such as artifact correctness and signing/notarization observations.
+
+## What Most People Should Ignore
+
+If you are just trying ClipFlow, you can usually skip:
+
+- `checksums.txt`
+- `release-manifest.json`
+- `release-health.json`
+- `release-validation.json`
+
+Those files exist so support and verification stay honest, not because they are part of the normal install path.
 
 ## Why These Files Exist
 

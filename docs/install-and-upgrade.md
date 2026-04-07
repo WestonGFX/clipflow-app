@@ -1,8 +1,10 @@
-# ClipFlow Beta Install And Upgrade Guide
+# ClipFlow Install And Upgrade Guide
 
 ## Download
 
-Download the latest beta build from:
+If you only want the short answer, download the `.dmg` from Releases and install ClipFlow normally.
+
+Download the latest public build from:
 
 - [ClipFlow releases](https://github.com/WestonGFX/clipflow-app/releases)
 
@@ -19,15 +21,15 @@ If you are not sure which one to pick, use the `.dmg`.
 
 ### Signed / notarized release
 
-If the beta release is Developer ID signed and notarized:
+If the release is Developer ID signed and notarized:
 
 1. Open the DMG.
 2. Drag `ClipFlow.app` into `Applications`.
 3. Launch ClipFlow normally.
 
-### Unsigned or ad-hoc beta build
+### Unsigned or ad-hoc build
 
-Some beta builds may still be structurally valid but not notarized yet.
+Some builds may still be structurally valid but not notarized yet.
 
 Try the normal macOS override flow first:
 
@@ -35,7 +37,7 @@ Try the normal macOS override flow first:
 2. Right-click the app and choose `Open`.
 3. Confirm the warning if macOS offers the override path.
 
-If Gatekeeper still blocks the build and you trust the beta, use this local workaround:
+If Gatekeeper still blocks the build and you trust the build, use this local workaround:
 
 ```bash
 codesign --force --deep --sign - /Applications/ClipFlow.app
@@ -43,6 +45,8 @@ xattr -dr com.apple.quarantine /Applications/ClipFlow.app
 ```
 
 This is a local testing workaround only. It does not replace proper Developer ID signing and notarization for public distribution.
+
+If you are unsure which path to take, stop here and use the `.dmg` plus the normal macOS `Open` flow first.
 
 ## Upgrade Behavior
 
@@ -83,7 +87,7 @@ To uninstall:
 rm -rf ~/Library/Application\ Support/com.clipflow
 ```
 
-## Reporting Beta Problems
+## Reporting Problems
 
 Please include:
 
