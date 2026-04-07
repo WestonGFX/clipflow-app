@@ -30,9 +30,16 @@ The latest beta builds live in:
 
 - [Releases](https://github.com/WestonGFX/clipflow-app/releases)
 
+For most people, the right download is:
+
+- the `.dmg`
+
+Use the zipped `.app` only as a fallback if the DMG route gives you trouble.
+
 Install notes, trust caveats, upgrade guidance, and migration steps live in:
 
 - [docs/install-and-upgrade.md](docs/install-and-upgrade.md)
+- [docs/release-assets.md](docs/release-assets.md)
 
 If the current beta build is not yet Developer ID signed and notarized, the install guide includes the local-open workaround and explains what that means.
 
@@ -80,6 +87,21 @@ If the current beta build is not yet Developer ID signed and notarized, the inst
 - pins, favorites, snippets, tags, and filtering
 - diagnostics, recovery, export, and reset tooling
 - local-only storage in the app support directory
+
+## Planned Next
+
+The public roadmap stays intentionally short. Detailed feature planning stays in the private development repo, but these are the current highest-priority future directions:
+
+1. Stronger importers so switching from other clipboard tools feels less painful.
+2. More useful transforms that clean up copied text without silently rewriting history.
+3. Better local smart actions for links, dates, code, and reusable snippets.
+4. Auto-update once signing and notarization are fully stable.
+5. A future Windows version after the Mac app is stronger and the parity path is clear.
+6. Smarter local-only retrieval features only if they can stay fast, private, and trustworthy.
+
+If you want to influence the order, use feature requests and roadmap feedback issues in this repo rather than treating the README as a live poll.
+
+- [Roadmap feedback and voting thread](https://github.com/WestonGFX/clipflow-app/issues/1)
 
 ## Feedback
 

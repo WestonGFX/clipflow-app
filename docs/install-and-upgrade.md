@@ -8,10 +8,12 @@ Download the latest beta build from:
 
 Look for:
 
-- `.dmg`
-- zipped `.app`
+- `.dmg` as the primary user download
+- zipped `.app` as the fallback download
 - `checksums.txt`
 - `release-manifest.json`
+
+If you are not sure which one to pick, use the `.dmg`.
 
 ## Install Paths
 
