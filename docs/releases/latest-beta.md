@@ -1,10 +1,14 @@
 # ClipFlow Release Notes
 
+This page now tracks the `v0.1.2` beta build.
+
 ## Highlights
 
 - dense main window and tray workflow built for fast clipboard recall
 - tray-first utility and compact desktop workflow, with deeper management in the main window when needed
 - snippets, diagnostics, export, recovery, and local-first trust surfaces
+- smarter shell layout with a quieter filter model and less always-visible chrome
+- a slimmer, more utility-like quick tray that better matches the menu-bar workflow
 - release metadata, checksums, and validation artifacts included with public builds
 - for normal installation, start with the DMG and follow the install guide if macOS asks for trust confirmation
 
