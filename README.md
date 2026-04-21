@@ -1,7 +1,7 @@
 # ClipFlow
 
 <div align="center">
-  <img src="docs/screenshots/main-ready/desktop-hero-carbonfox-kanagawa.png" width="760" alt="ClipFlow desktop hero showing the main window and tray workflow on macOS" />
+  <img src="docs/screenshots/main-ready/main-dark-default-kanagawa-dragon.png" width="760" alt="ClipFlow compact main window on macOS" />
 </div>
 
 <div align="center">
@@ -54,36 +54,32 @@ If the current build is not yet Developer ID signed and notarized, the install g
 
 ## Product Gallery
 
-### Density Range
+### Compact Main Window
 
 <table>
   <tr>
-    <td align="center" width="33.3%">
-      <strong>Comfortable · Dawnfox</strong><br />
-      <img src="docs/screenshots/main-ready/main-light-comfortable-dawnfox.png" width="280" alt="ClipFlow main window in Dawnfox with comfortable density" />
+    <td align="center" width="50%">
+      <strong>Light</strong><br />
+      <img src="docs/screenshots/main-ready/main-light-default-dawnfox.png" width="320" alt="ClipFlow compact main window in Dawnfox" />
     </td>
-    <td align="center" width="33.3%">
-      <strong>Compact · Kanagawa Dragon</strong><br />
-      <img src="docs/screenshots/main-ready/main-dark-default-kanagawa-dragon.png" width="280" alt="ClipFlow main window in Kanagawa Dragon with compact density" />
-    </td>
-    <td align="center" width="33.3%">
-      <strong>Dense · Carbonfox</strong><br />
-      <img src="docs/screenshots/main-ready/main-dark-dense-carbonfox.png" width="280" alt="ClipFlow main window in Carbonfox with dense density" />
+    <td align="center" width="50%">
+      <strong>Dark</strong><br />
+      <img src="docs/screenshots/main-ready/main-dark-default-kanagawa-dragon.png" width="320" alt="ClipFlow compact main window in Kanagawa Dragon" />
     </td>
   </tr>
 </table>
 
-### More Surfaces
+### Tray View
 
 <table>
   <tr>
     <td align="center" width="50%">
-      <strong>Tray · Night Owl</strong><br />
-      <img src="docs/screenshots/main-ready/tray-dark-night-owl.png" width="220" alt="ClipFlow tray window in Night Owl" />
+      <strong>Light</strong><br />
+      <img src="docs/screenshots/main-ready/tray-light-dawnfox.png" width="220" alt="ClipFlow tray window in Dawnfox" />
     </td>
     <td align="center" width="50%">
-      <strong>Settings · Kanagawa Dragon</strong><br />
-      <img src="docs/screenshots/main-ready/settings-dark-kanagawa-dragon.png" width="320" alt="ClipFlow settings view in Kanagawa Dragon" />
+      <strong>Dark</strong><br />
+      <img src="docs/screenshots/main-ready/tray-dark-night-owl.png" width="220" alt="ClipFlow tray window in Night Owl" />
     </td>
   </tr>
 </table>
